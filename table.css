@@ -1,0 +1,33 @@
+table
+{
+    table-layout: fixed;
+    width:100%;
+    border-collapse: separate;
+    border:50px dotted red;
+}
+thead th:nth-child(1){
+    width: 20%;
+  }
+  
+  thead th:nth-child(2){
+    width: 20%;
+  }
+  thead th:nth-child(3){
+    width: 10%;
+  }
+  thead th:nth-child(4){
+    width: 35%;
+  }
+  body{
+    background-color: gold;
+  }
+  caption{
+    font-family: 'Oswald', sans-serif;
+    color:blue;
+    text-align:justify;
+  }
+  th{
+    background-color: crimson;
+    color: darkblue;
+  }
+  td

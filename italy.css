@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+
+}
+body
+{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(221, 239, 255);
+    display: grid;
+    place-items: center;
+    font-family:cursive;
+    font-weight:bold;
+
+}
+h3{
+    position:absolute;
+    text-align: center;
+    top: 20px;
+}
+under
+.flag{
+    background: linear-gradient(to right,#009343 33%,#fff 33%,#fff 66%,#cf2734 0);
+
+}

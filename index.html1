@@ -1,0 +1,17 @@
+<html>
+<head>
+<style>
+p
+{
+ color:red;   
+}
+</style>
+
+</head>
+
+<body>
+<p>happy birthday</p>
+<p>hi</p>
+<p>hello</p>
+</body>
+</html>
