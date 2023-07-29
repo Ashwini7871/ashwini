@@ -1,0 +1,114 @@
+<!-- <!DOCTYPE html>
+<html>
+<body>
+
+<h1>The Window Object</h1>
+<h2>The innerWidth and innerHeight Properties</h2>
+
+<p id="demo"></p>
+
+<script>
+let w = window.innerWidth;
+let h = window.innerHeight;
+document.getElementById("demo").innerHTML = "Width: " + w + "<br>Height: " + h;
+</script>
+
+</body> -->
+<!-- </html> -->
+
+
+<!-- <table id="table">
+    <tr>
+      <td>Your age:</td>
+  
+      <td>
+        <label>
+          <input type="radio" name="age" value="young" checked> less than 18
+        </label>
+        <label>
+          <input type="radio" name="age" value="mature"> from 18 to 50
+        </label>
+        <label>
+          <input type="radio" name="age" value="senior"> more than 60
+        </label>
+      </td>
+    </tr>
+  </table>
+  
+  <script>
+    let inputs = table.getElementsByTagName('input');
+  
+    for (let input of inputs) {
+      alert( input.value + ': ' + input.checked );
+    }
+  </script> -->
+
+
+  <!-- <!doctype html>
+<body>
+<p> Hi </p>
+<p> Hello </p>
+<ul>
+    <li> Tamil </li>
+    <li> English </li>
+</ul>
+<script>
+  let elements = document.querySelectorAll('li');
+//let elements = document.querySelectorAll('p');
+  for (let elem of elements) {
+    alert(elem.innerHTML); // Hi, Hello
+  }
+</script>
+</body -->
+
+
+<!-- <html>
+<body>
+
+<h1>The Document Object</h1>
+<h2>addEventListener() Method Demo</h2>
+
+<p>Click anywhere in the document to display "Vanakkam!".</p>
+
+<p id="abcd"></p>
+
+<script>
+document.addEventListener("click", myFunction);
+
+function myFunction() {
+  document.getElementById("abcd").innerHTML = "Hello World";
+}
+</script>
+
+</body>
+</html> -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        #table_style {
+            border:2px solid #CCC;
+            width:100px;
+            height:100px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Table Border Colorஐ ஜாவாஸ்கிரிப்ட் மூலம் மாற்றுவோம்</h2>
+    <div id="table_style">வணக்கம்</div>
+    <br>
+    <button type="button" onclick="changeStyle()">Click Here</button>
+    <script>
+    function changeStyle(){
+        var element = document.getElementById("table_style");
+        element.style.borderColor = "red";
+        //element.style.borderStyle = "dotted";
+        //element.style.color = "#FF0000";
+
+    }
+    </script>
+
+</body>
+</html>
